@@ -38,9 +38,9 @@ Abbreviation                                               |  XPath expression  
 ---------------------------------------------------------- | ------------------------------------- | ------------------|----------
 observation <a name ="observation"></a>	| //schema-element(ef:EnvironmentalMonitoringFacility)/ef:hasObservation/@xlink:href <br> //schema-element(ef:EnvironmentalMonitoringNetwork)/ef:hasObservation/@xlink:href| 0..\* | Yes
 observingCapability <a name ="observingCapability"></a>	| //schema-element(ef:EnvironmentalMonitoringFacility)/ef:observingCapability/@xlink:href <br> //schema-element(ef:EnvironmentalMonitoringNetwork)/ef:observingCapability/@xlink:href | 0..\* | Yes
-geometry <a name="geometry"></a> | //schema-element(ef:EnvironmentalMonitoringFacility)/ef:geometry|0..1 |No
-representativePoint <a name="representativePoint"></a> | //schema-element(ef:EnvironmentalMonitoringFacility)/ef:representativePoint|0..1 |Yes
 Domain <a name ="Domain"></a>	| //schema-element(ef:ObservingCapability)/ef:featureOfInterest/@xlink:href | 0..1 | Yes
 Phenomenon <a name ="Phenomenon"></a>	| //schema-element(ef:ObservingCapability)/ef:observedProperty/@xlink:href | 1 | No
 ProcessUsed <a name ="ProcessUsed"></a>	| //schema-element(ef:ObservingCapability)/ef:procedure/@xlink:href | 1 | No
+geometry <a name="geometry"></a> | //schema-element(ef:EnvironmentalMonitoringFacility)/ef:geometry|0..1 |No
+representativePoint <a name="representativePoint"></a> | //schema-element(ef:EnvironmentalMonitoringFacility)/ef:representativePoint|0..1 |Yes
 
