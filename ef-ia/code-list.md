@@ -8,21 +8,21 @@
 
 * Verify that any code list extensions are publicly accessible via HTTP, i.e. inspect extensible code list values property elements. If a reference (@xlink:href) has a value that does not start with http://inspire.ec.europa.eu/codelist/, verify that a HTTP GET request to the URI retrieves a document. Otherwise report [brokenLink](#brokenLink).
 
-This data theme currently has the following extensible code lists:
+This data theme currently has the following empty code lists:
 
-* [MeasurementRegimeValue](#MeasurementRegimeValue) : https://inspire.ec.europa.eu/codelist/MeasurementRegimeValue
+* [MeasurementRegimeValue](#MeasurementRegimeValue) : http://inspire.ec.europa.eu/codelist/MeasurementRegimeValue
 
-* [MediaValue](#MediaValue) :  https://inspire.ec.europa.eu/codelist/MediaValue
+* [MediaValue](#MediaValue) :  http://inspire.ec.europa.eu/codelist/MediaValue
 
-* [ProcessTypeValue](#ProcessTypeValue) : https://inspire.ec.europa.eu/codelist/ProcessTypeValue
+* [ProcessTypeValue](#ProcessTypeValue) : http://inspire.ec.europa.eu/codelist/ProcessTypeValue
 
-* [PurposeOfCollectionValue](#PurposeOfCollectionValue) : https://inspire.ec.europa.eu/codelist/PurposeOfCollectionValue
+* [PurposeOfCollectionValue](#PurposeOfCollectionValue) : http://inspire.ec.europa.eu/codelist/PurposeOfCollectionValue
 
-* [ResultAcquisitionSourceValue](#ResultAcquisitionSourceValue) : https://inspire.ec.europa.eu/codelist/ResultAcquisitionSourceValue
+* [ResultAcquisitionSourceValue](#ResultAcquisitionSourceValue) : http://inspire.ec.europa.eu/codelist/ResultAcquisitionSourceValue
 
-* [ResultNatureValue](#ResultNatureValue) : https://inspire.ec.europa.eu/codelist/ResultNatureValue
+* [ResultNatureValue](#ResultNatureValue) : http://inspire.ec.europa.eu/codelist/ResultNatureValue
 
-* [SpecialisedEMFTypeValue](#SpecialisedEMFTypeValue) : https://inspire.ec.europa.eu/codelist/SpecialisedEMFTypeValue
+* [SpecialisedEMFTypeValue](#SpecialisedEMFTypeValue) : http://inspire.ec.europa.eu/codelist/SpecialisedEMFTypeValue
 
 **Reference(s)**: 
 
